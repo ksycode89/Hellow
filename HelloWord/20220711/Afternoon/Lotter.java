@@ -9,20 +9,23 @@ public class Lotter {
 
 		ArrayList<Integer> lotter = new ArrayList<>(6);
 		Iterator<Integer> itor = lotter.iterator();
-		for(int i=0; i<lotter.size();i++) {
-			Integer num = (int) (Math.random() * 45) + 1;
-//			lotter[i]=num;
-		}
-		
-		
-		
-//		while (itor.hasNext()) {
-//		int num = (int) (Math.random() * 45) + 1;
+		int arNum ;
+		arNum=lotter.size();
+//		System.out.println(arNum);
+//		for(int i=0; i<6;i++) {
+//			Integer num = (int) (Math.random() * 45) + 1;
 //			lotter.add(num);
-//			System.out.println(lotter.get(num));
-//			System.out.println(num);
-//
+//			System.out.println(lotter.get(i));
 //		}
-
+//		
+		
+		
+		while (itor.hasNext()) {
+		Integer num = (int) (Math.random() * 45) + 1;
+			lotter.add(num);
+			System.out.println(itor.hasNext());
+			
+		}
+		System.out.println(lotter.get(0));
 	}
 }
