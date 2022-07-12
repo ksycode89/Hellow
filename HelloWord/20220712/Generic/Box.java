@@ -1,7 +1,5 @@
 package Generic;
 
-import java.util.ArrayList;
-
 public class Box<T> {
 	private T o;
 	

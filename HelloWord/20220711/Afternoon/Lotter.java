@@ -19,7 +19,7 @@ public class Lotter {
 //		}
 //		
 		
-		
+		lotter.addAll(50, lotter);
 		while (itor.hasNext()) {
 		Integer num = (int) (Math.random() * 45) + 1;
 			lotter.add(num);
